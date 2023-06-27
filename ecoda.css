@@ -362,31 +362,8 @@ width: 500px;
     display: none;
   }
 }
-.about-image-anmi{
-  animation: about-image-anmi 3s;
-}
-@keyframes about-image-anmi{
-  from{
-transform: translateX(-300px);
-  }
-  to{
-transform: translateX(0);
-  }
-}
-
 .about .container .right-side{
 text-align: center;
-}
-.about-container-right-side-anmi{
-  animation:about-container-right-side 3s ;
-}
-@keyframes about-container-right-side {
-from {
-transform: translateX(300px);
-}
-to{
-transform: translateX(0);
-}
 }
 .about .container .right-side h2{
 font-size: 30px;

@@ -52,26 +52,6 @@ form.onsubmit = function (event) {
     event.preventDefault();
   }
 };
-// Scroll Animation
-
-
-const img1 = document.querySelector(`.about .container .left-side img`)
-window.onscroll = function () {
-  if (window.scrollY >= 100) {
-    img1.className = `about-image-anmi`
-  }
-}
-
-
-const about_right_side = document.querySelector(`.about .container .right-side`)
-window.onscroll = function () {
-  if (window.scroll >= 100) {
-    about_right_side.classList.add(`about-container-right-side-anmi`)
-  }
-}
-
-
-
 
 
 // End Project
