@@ -2,13 +2,18 @@
 
 const bars = document.getElementById(`bars`);
 let header_ul = document.getElementById(`header-ul`);
+const second = document.querySelector(`#bars2`)
+console.log(second)
 
-bars.onclick = function () {
+
+bars.addEventListener(`click`, function () {
   header_ul.style.display = `flex`;
-};
-bars.onblur = function () {
+  second.style.display = `flex`
+  bars.style.display = `none`
+})
+second.addEventListener(`click` , function () {
   header_ul.style.display = `none`;
-};
+} )
 
 // Propertes-animaion
 
