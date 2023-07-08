@@ -7,14 +7,13 @@ console.log(second)
 
 
 bars.addEventListener(`click`, function () {
-  if (header_ul.style.display = `none`) {
-    header_ul.style.display = `flex`;
-  }
-  else {
-    header_ul.style.display = `none`
-  }
-
+  header_ul.style.display = `flex`;
+  second.style.display = `flex`
+  bars.style.display = `none`
 })
+second.addEventListener(`click` , function () {
+  header_ul.style.display = `none`;
+} )
 
 // Propertes-animaion
 
