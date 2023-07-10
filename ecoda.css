@@ -65,6 +65,10 @@ input {
   padding-left: 15px;
   padding-right: 15px;
 }
+.apper{
+  display: flex;
+}
+
 /* Start Coding */
 header {
   display: flex;
